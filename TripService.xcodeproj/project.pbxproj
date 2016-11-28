@@ -6,8 +6,107 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		26D38EFB1DEC49A100B375E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26D38EFA1DEC49A100B375E8 /* main.cpp */; };
+		26D38F1D1DEC49EC00B375E8 /* libTripService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D38EEC1DEC497E00B375E8 /* libTripService.a */; };
+		26D38F1E1DEC49F000B375E8 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D38F0E1DEC49D100B375E8 /* libgtest.a */; };
+		26D38F201DEC4AA200B375E8 /* dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 26D38F1F1DEC4AA200B375E8 /* dummy.c */; };
+		26D38F2D1DEC4B7B00B375E8 /* TripServiceSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D38F2C1DEC4B7B00B375E8 /* TripServiceSupport.h */; };
+		26D38F301DEC4B8200B375E8 /* TripService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26D38F2E1DEC4B8200B375E8 /* TripService.cpp */; };
+		26D38F311DEC4B8200B375E8 /* TripService.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D38F2F1DEC4B8200B375E8 /* TripService.h */; };
+		26D38F331DEC4B8900B375E8 /* UserSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D38F321DEC4B8900B375E8 /* UserSession.h */; };
+		26D38F381DEC4BD300B375E8 /* TripServiceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26D38F371DEC4BD300B375E8 /* TripServiceTest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26D38F0B1DEC49D100B375E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4539C8FF0EC27F6400A70F4C;
+			remoteInfo = "gtest-framework";
+		};
+		26D38F0D1DEC49D100B375E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C848FA101A209C0083642A;
+			remoteInfo = "gtest-static";
+		};
+		26D38F0F1DEC49D100B375E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C8490B101A217E0083642A;
+			remoteInfo = "gtest_main-static";
+		};
+		26D38F111DEC49D100B375E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40899F430FFA7184000B29AE;
+			remoteInfo = "gtest_unittest-framework";
+		};
+		26D38F131DEC49D100B375E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C84987101A36850083642A;
+			remoteInfo = "gtest_unittest-static";
+		};
+		26D38F151DEC49D100B375E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4089A0130FFACEFC000B29AE;
+			remoteInfo = "sample1_unittest-framework";
+		};
+		26D38F171DEC49D100B375E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C84997101A36A60083642A;
+			remoteInfo = "sample1_unittest-static";
+		};
+		26D38F191DEC49E200B375E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D38EE41DEC497E00B375E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D38EEB1DEC497E00B375E8;
+			remoteInfo = TripService;
+		};
+		26D38F1B1DEC49E600B375E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C848F9101A209C0083642A;
+			remoteInfo = "gtest-static";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26D38EF61DEC49A100B375E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		26D38EEC1DEC497E00B375E8 /* libTripService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTripService.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D38EF81DEC49A100B375E8 /* UnitTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnitTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D38EFA1DEC49A100B375E8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gtest.xcodeproj; path = googletest/googletest/xcode/gtest.xcodeproj; sourceTree = "<group>"; };
+		26D38F1F1DEC4AA200B375E8 /* dummy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dummy.c; sourceTree = "<group>"; };
+		26D38F2C1DEC4B7B00B375E8 /* TripServiceSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripServiceSupport.h; sourceTree = "<group>"; };
+		26D38F2E1DEC4B8200B375E8 /* TripService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TripService.cpp; sourceTree = "<group>"; };
+		26D38F2F1DEC4B8200B375E8 /* TripService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripService.h; sourceTree = "<group>"; };
+		26D38F321DEC4B8900B375E8 /* UserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSession.h; sourceTree = "<group>"; };
+		26D38F371DEC4BD300B375E8 /* TripServiceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TripServiceTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -18,12 +117,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26D38EF51DEC49A100B375E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D38F1E1DEC49F000B375E8 /* libgtest.a in Frameworks */,
+				26D38F1D1DEC49EC00B375E8 /* libTripService.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		26D38EE31DEC497E00B375E8 = {
 			isa = PBXGroup;
 			children = (
+				26D38EF31DEC498A00B375E8 /* Main */,
+				26D38EF91DEC49A100B375E8 /* UnitTests */,
 				26D38EED1DEC497E00B375E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -32,8 +142,69 @@
 			isa = PBXGroup;
 			children = (
 				26D38EEC1DEC497E00B375E8 /* libTripService.a */,
+				26D38EF81DEC49A100B375E8 /* UnitTests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		26D38EF31DEC498A00B375E8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				26D38F341DEC4B9300B375E8 /* support */,
+				26D38F351DEC4B9D00B375E8 /* trip */,
+				26D38F361DEC4BA300B375E8 /* user */,
+				26D38F1F1DEC4AA200B375E8 /* dummy.c */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		26D38EF91DEC49A100B375E8 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */,
+				26D38EFA1DEC49A100B375E8 /* main.cpp */,
+				26D38F371DEC4BD300B375E8 /* TripServiceTest.cpp */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		26D38F001DEC49D100B375E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D38F0C1DEC49D100B375E8 /* gtest.framework */,
+				26D38F0E1DEC49D100B375E8 /* libgtest.a */,
+				26D38F101DEC49D100B375E8 /* libgtest_main.a */,
+				26D38F121DEC49D100B375E8 /* gtest_unittest-framework */,
+				26D38F141DEC49D100B375E8 /* gtest_unittest */,
+				26D38F161DEC49D100B375E8 /* sample1_unittest-framework */,
+				26D38F181DEC49D100B375E8 /* sample1_unittest-static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D38F341DEC4B9300B375E8 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				26D38F2C1DEC4B7B00B375E8 /* TripServiceSupport.h */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		26D38F351DEC4B9D00B375E8 /* trip */ = {
+			isa = PBXGroup;
+			children = (
+				26D38F2E1DEC4B8200B375E8 /* TripService.cpp */,
+				26D38F2F1DEC4B8200B375E8 /* TripService.h */,
+			);
+			name = trip;
+			sourceTree = "<group>";
+		};
+		26D38F361DEC4BA300B375E8 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				26D38F321DEC4B8900B375E8 /* UserSession.h */,
+			);
+			name = user;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -43,6 +214,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D38F2D1DEC4B7B00B375E8 /* TripServiceSupport.h in Headers */,
+				26D38F331DEC4B8900B375E8 /* UserSession.h in Headers */,
+				26D38F311DEC4B8200B375E8 /* TripService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +240,25 @@
 			productReference = 26D38EEC1DEC497E00B375E8 /* libTripService.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		26D38EF71DEC49A100B375E8 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D38EFC1DEC49A100B375E8 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				26D38EF41DEC49A100B375E8 /* Sources */,
+				26D38EF51DEC49A100B375E8 /* Frameworks */,
+				26D38EF61DEC49A100B375E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D38F1C1DEC49E600B375E8 /* PBXTargetDependency */,
+				26D38F1A1DEC49E200B375E8 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 26D38EF81DEC49A100B375E8 /* UnitTests */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -76,6 +269,11 @@
 				ORGANIZATIONNAME = Home;
 				TargetAttributes = {
 					26D38EEB1DEC497E00B375E8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UDWCB532ZV;
+						ProvisioningStyle = Automatic;
+					};
+					26D38EF71DEC49A100B375E8 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = UDWCB532ZV;
 						ProvisioningStyle = Automatic;
@@ -92,22 +290,105 @@
 			mainGroup = 26D38EE31DEC497E00B375E8;
 			productRefGroup = 26D38EED1DEC497E00B375E8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 26D38F001DEC49D100B375E8 /* Products */;
+					ProjectRef = 26D38EFF1DEC49D100B375E8 /* gtest.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				26D38EEB1DEC497E00B375E8 /* TripService */,
+				26D38EF71DEC49A100B375E8 /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		26D38F0C1DEC49D100B375E8 /* gtest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = gtest.framework;
+			remoteRef = 26D38F0B1DEC49D100B375E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26D38F0E1DEC49D100B375E8 /* libgtest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgtest.a;
+			remoteRef = 26D38F0D1DEC49D100B375E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26D38F101DEC49D100B375E8 /* libgtest_main.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgtest_main.a;
+			remoteRef = 26D38F0F1DEC49D100B375E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26D38F121DEC49D100B375E8 /* gtest_unittest-framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "gtest_unittest-framework";
+			remoteRef = 26D38F111DEC49D100B375E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26D38F141DEC49D100B375E8 /* gtest_unittest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = gtest_unittest;
+			remoteRef = 26D38F131DEC49D100B375E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26D38F161DEC49D100B375E8 /* sample1_unittest-framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "sample1_unittest-framework";
+			remoteRef = 26D38F151DEC49D100B375E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26D38F181DEC49D100B375E8 /* sample1_unittest-static */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "sample1_unittest-static";
+			remoteRef = 26D38F171DEC49D100B375E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26D38EE81DEC497E00B375E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D38F301DEC4B8200B375E8 /* TripService.cpp in Sources */,
+				26D38F201DEC4AA200B375E8 /* dummy.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D38EF41DEC49A100B375E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D38F381DEC4BD300B375E8 /* TripServiceTest.cpp in Sources */,
+				26D38EFB1DEC49A100B375E8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D38F1A1DEC49E200B375E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D38EEB1DEC497E00B375E8 /* TripService */;
+			targetProxy = 26D38F191DEC49E200B375E8 /* PBXContainerItemProxy */;
+		};
+		26D38F1C1DEC49E600B375E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "gtest-static";
+			targetProxy = 26D38F1B1DEC49E600B375E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		26D38EEE1DEC497E00B375E8 /* Debug */ = {
@@ -215,6 +496,30 @@
 			};
 			name = Release;
 		};
+		26D38EFD1DEC49A100B375E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UDWCB532ZV;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/UnitTests/googletest/googlemock/include,
+					$SRCROOT/UnitTests/googletest/googletest/include,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26D38EFE1DEC49A100B375E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UDWCB532ZV;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/UnitTests/googletest/googlemock/include,
+					$SRCROOT/UnitTests/googletest/googletest/include,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -232,6 +537,14 @@
 			buildConfigurations = (
 				26D38EF11DEC497E00B375E8 /* Debug */,
 				26D38EF21DEC497E00B375E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D38EFC1DEC49A100B375E8 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D38EFD1DEC49A100B375E8 /* Debug */,
+				26D38EFE1DEC49A100B375E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
